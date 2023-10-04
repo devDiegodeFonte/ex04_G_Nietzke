@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DF | 04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box-nav">
+        <h1>EXERCÍCIO #04</h1>
+        <H2>Diego de Fonte. Aluno</H2>
+    </div>
+    <div class="box">
+        <p>Leia 2 números. 
+           Efetue as 4 operaões matématicas 
+           mostre os resultados 
+        </p>
+        <input type="number" class="num" id="Num1" placeholder="digite um valor">
+        <br><br>
+        <input type="number" class="num" id="Num2" placeholder="digite um valor">
+        <br><br>
+        <input type="radio"  id="adicao" name="operation" value="adicao"  >
+        <label for="adicao">Adição</label> 
+        <br>
+        <input type="radio"  id="subt" name="operation" value="subtracao"  >
+        <label for="subtracao">Subtração</label> 
+        <br>
+        <input type="radio"  id="divi" name="operation" value="divisao"  >
+        <label for="divisao">Divisão</label> 
+        <br>       
+        <input type="radio"  id="mult" name="operation" value="multipli"  >
+        <label for="multipli">Multiplicação</label> 
+        <br>
+        <br>
+        <button onclick="ler()" >Enviar</button>
+        <script src="ex04.js"></script>
+    </div>
+</body>
+</html>
